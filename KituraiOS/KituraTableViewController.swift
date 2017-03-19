@@ -17,7 +17,7 @@
 import UIKit
 import Kitura
 import HeliumLogger
-import KituraHelloWorld
+import SharedServerClient
 
 class KituraTableViewController: UITableViewController {
     @IBOutlet weak var kituraSwitch: UISwitch!
@@ -100,7 +100,7 @@ class KituraTableViewController: UITableViewController {
     private func initializeKituraServer() {
         let textViewOutputStream = TextViewOutputStream(Log: log)
         HeliumStreamLogger.use(outputStream: textViewOutputStream)
-        router = RouterCreator.create()
+        router = SharedServerClient.RouterCreator.create()
         Kitura.addHTTPServer(onPort: port, with: router)
     }
 

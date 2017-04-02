@@ -10,7 +10,6 @@
 		DC26755D1E714D4800915F42 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC26755C1E714D4800915F42 /* Log.swift */; };
 		DC26755F1E714DAC00915F42 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC26755E1E714DAC00915F42 /* Colors.swift */; };
 		DC2675611E714E2000915F42 /* TextViewOutputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2675601E714E2000915F42 /* TextViewOutputStream.swift */; };
-		DC5080221E30CC5200A73889 /* KituraViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5080211E30CC5200A73889 /* KituraViewControllerTests.swift */; };
 		DC655F8B1E6EA81100B15995 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC655F8A1E6EA81100B15995 /* LogViewController.swift */; };
 		DC79191E1E6D790F004AA9B5 /* KituraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79191D1E6D790F004AA9B5 /* KituraTableViewController.swift */; };
 		DCD2FD7E1D98FC230062421A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2FD7D1D98FC230062421A /* AppDelegate.swift */; };
@@ -42,7 +41,6 @@
 		DC26755C1E714D4800915F42 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		DC26755E1E714DAC00915F42 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DC2675601E714E2000915F42 /* TextViewOutputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewOutputStream.swift; sourceTree = "<group>"; };
-		DC5080211E30CC5200A73889 /* KituraViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KituraViewControllerTests.swift; sourceTree = "<group>"; };
 		DC655F8A1E6EA81100B15995 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		DC79191D1E6D790F004AA9B5 /* KituraTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KituraTableViewController.swift; sourceTree = "<group>"; };
 		DCD2FD7A1D98FC230062421A /* ClientSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				DCD2FD941D98FC230062421A /* Info.plist */,
-				DC5080211E30CC5200A73889 /* KituraViewControllerTests.swift */,
 			);
 			path = KituraiOSTests;
 			sourceTree = "<group>";
@@ -298,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5080221E30CC5200A73889 /* KituraViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

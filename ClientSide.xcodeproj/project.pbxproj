@@ -446,7 +446,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../iOSStaticLibraries/Curl/include";
 				INFOPLIST_FILE = KituraiOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
@@ -455,7 +455,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ibm-swift.KituraHelloWorldIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/Packages/**";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/**";
 				SWIFT_OBJC_BRIDGING_HEADER = "KituraiOS/KituraiOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -475,7 +475,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../iOSStaticLibraries/Curl/include";
 				INFOPLIST_FILE = KituraiOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
@@ -484,7 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ibm-swift.KituraHelloWorldIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/Packages/**";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/**";
 				SWIFT_OBJC_BRIDGING_HEADER = "KituraiOS/KituraiOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

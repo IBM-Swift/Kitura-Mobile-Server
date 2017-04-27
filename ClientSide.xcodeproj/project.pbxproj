@@ -497,12 +497,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../iOSStaticLibraries/Curl/include";
 				INFOPLIST_FILE = KituraiOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.rodedz.KituraiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/Packages/**";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/**";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientSide.app/ClientSide";
 			};
@@ -515,12 +515,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../iOSStaticLibraries/Curl/include";
 				INFOPLIST_FILE = KituraiOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.rodedz.KituraiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/Packages/**";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/**";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientSide.app/ClientSide";
 			};
@@ -531,6 +531,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KituraiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.rodedz.KituraiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,6 +545,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KituraiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.rodedz.KituraiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

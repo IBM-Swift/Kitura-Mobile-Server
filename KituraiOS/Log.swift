@@ -20,7 +20,7 @@ import UIKit
 class Log {
     weak var mainViewController: KituraTableViewController?
     weak var logViewController: LogViewController?
-    var full = "Kitura IOS App started!\n" {
+    var full = "Kitura iOS App started!\n" {
         didSet {
             updateTextView(textView: mainViewController?.kituraOutputTextView, text: full)
             updateTextView(textView: logViewController?.logTextView, text: full)

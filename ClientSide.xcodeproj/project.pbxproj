@@ -453,7 +453,7 @@
 					"-ObjC",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ibm-swift.KituraHelloWorldIOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ibm-swift.KituraMobileServer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/**";
 				SWIFT_OBJC_BRIDGING_HEADER = "KituraiOS/KituraiOS-Bridging-Header.h";
@@ -482,7 +482,7 @@
 					"-ObjC",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ibm-swift.KituraHelloWorldIOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ibm-swift.KituraMobileServer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../ServerSide/**";
 				SWIFT_OBJC_BRIDGING_HEADER = "KituraiOS/KituraiOS-Bridging-Header.h";

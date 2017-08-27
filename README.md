@@ -7,4 +7,6 @@ Used as a submodule by [Kitura HelloWorld/iOS](https://github.com/IBM-Swift/Kitu
 ![Apache 2](https://img.shields.io/badge/license-Apache2-blue.svg?style=flat)
 &nbsp;[![Slack Status](http://swift-at-ibm-slack.mybluemix.net/badge.svg)](http://swift-at-ibm-slack.mybluemix.net/)
 
+To be used with a framework called `SharedServerClient`, which must have `RouterCreator` class with method `create()` that must return an instance of `KituraRouter` class. This method is called by the app's code to run Kitura with the returned Router. See examples of `SharedServerClient` in [Kitura HelloWorld/iOS](https://github.com/IBM-Swift/Kitura-HelloWorld-iOS) and [Kitura Sample/iOS](https://github.com/IBM-Swift/Kitura-Sample-iOS).
+
 ![Kitura Mobile Server](https://raw.githubusercontent.com/IBM-Swift/Kitura-Mobile-Server/master/Documentation/KituraIOSMobileServer.png)

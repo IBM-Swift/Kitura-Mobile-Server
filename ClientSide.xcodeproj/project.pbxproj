@@ -17,7 +17,6 @@
 		DCD2FD831D98FC230062421A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD2FD811D98FC230062421A /* Main.storyboard */; };
 		DCD2FD851D98FC230062421A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD2FD841D98FC230062421A /* Assets.xcassets */; };
 		DCD2FD881D98FC230062421A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD2FD861D98FC230062421A /* LaunchScreen.storyboard */; };
-		DCD2FD9E1D98FC230062421A /* KituraiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2FD9D1D98FC230062421A /* KituraiOSUITests.swift */; };
 		DCD2FDAC1D9901CB0062421A /* IPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2FDAB1D9901CB0062421A /* IPUtility.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +53,6 @@
 		DCD2FD8E1D98FC230062421A /* ClientSideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientSideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD2FD941D98FC230062421A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD2FD991D98FC230062421A /* ClientSideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientSideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCD2FD9D1D98FC230062421A /* KituraiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KituraiOSUITests.swift; sourceTree = "<group>"; };
-		DCD2FD9F1D98FC230062421A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD2FDAB1D9901CB0062421A /* IPUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPUtility.swift; sourceTree = "<group>"; };
 		DCD2FDAD1D99073B0062421A /* KituraiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KituraiOS-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +95,6 @@
 				D5898C0D1E61644200F98B09 /* Frameworks */,
 				DCD2FD7C1D98FC230062421A /* KituraiOS */,
 				DCD2FD911D98FC230062421A /* KituraiOSTests */,
-				DCD2FD9C1D98FC230062421A /* KituraiOSUITests */,
 				DCD2FD7B1D98FC230062421A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,15 +135,6 @@
 				D538D4391F5BF10800697E28 /* TestKituraViewController.swift */,
 			);
 			path = KituraiOSTests;
-			sourceTree = "<group>";
-		};
-		DCD2FD9C1D98FC230062421A /* KituraiOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DCD2FD9D1D98FC230062421A /* KituraiOSUITests.swift */,
-				DCD2FD9F1D98FC230062421A /* Info.plist */,
-			);
-			path = KituraiOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD2FD9E1D98FC230062421A /* KituraiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,13 +28,6 @@
 			remoteGlobalIDString = DCD2FD791D98FC230062421A;
 			remoteInfo = KituraiOS;
 		};
-		DCD2FD9A1D98FC230062421A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCD2FD721D98FC230062421A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCD2FD791D98FC230062421A;
-			remoteInfo = KituraiOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +45,6 @@
 		DCD2FD891D98FC230062421A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD2FD8E1D98FC230062421A /* ClientSideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientSideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD2FD941D98FC230062421A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCD2FD991D98FC230062421A /* ClientSideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientSideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD2FDAB1D9901CB0062421A /* IPUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPUtility.swift; sourceTree = "<group>"; };
 		DCD2FDAD1D99073B0062421A /* KituraiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KituraiOS-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,13 +58,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DCD2FD8B1D98FC230062421A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCD2FD961D98FC230062421A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,7 +89,6 @@
 			children = (
 				DCD2FD7A1D98FC230062421A /* ClientSide.app */,
 				DCD2FD8E1D98FC230062421A /* ClientSideTests.xctest */,
-				DCD2FD991D98FC230062421A /* ClientSideUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,24 +159,6 @@
 			productReference = DCD2FD8E1D98FC230062421A /* ClientSideTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCD2FD981D98FC230062421A /* ClientSideUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCD2FDA81D98FC230062421A /* Build configuration list for PBXNativeTarget "ClientSideUITests" */;
-			buildPhases = (
-				DCD2FD951D98FC230062421A /* Sources */,
-				DCD2FD961D98FC230062421A /* Frameworks */,
-				DCD2FD971D98FC230062421A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCD2FD9B1D98FC230062421A /* PBXTargetDependency */,
-			);
-			name = ClientSideUITests;
-			productName = KituraiOSUITests;
-			productReference = DCD2FD991D98FC230062421A /* ClientSideUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,11 +179,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = DCD2FD791D98FC230062421A;
 					};
-					DCD2FD981D98FC230062421A = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DCD2FD791D98FC230062421A;
-					};
 				};
 			};
 			buildConfigurationList = DCD2FD751D98FC230062421A /* Build configuration list for PBXProject "ClientSide" */;
@@ -235,7 +196,6 @@
 			targets = (
 				DCD2FD791D98FC230062421A /* ClientSide */,
 				DCD2FD8D1D98FC230062421A /* ClientSideTests */,
-				DCD2FD981D98FC230062421A /* ClientSideUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,13 +212,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DCD2FD8C1D98FC230062421A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCD2FD971D98FC230062421A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,13 +243,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCD2FD951D98FC230062421A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,11 +250,6 @@
 			isa = PBXTargetDependency;
 			target = DCD2FD791D98FC230062421A /* ClientSide */;
 			targetProxy = DCD2FD8F1D98FC230062421A /* PBXContainerItemProxy */;
-		};
-		DCD2FD9B1D98FC230062421A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCD2FD791D98FC230062421A /* ClientSide */;
-			targetProxy = DCD2FD9A1D98FC230062421A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -522,34 +463,6 @@
 			};
 			name = Release;
 		};
-		DCD2FDA91D98FC230062421A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = KituraiOSUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.rodedz.KituraiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = KituraiOS;
-			};
-			name = Debug;
-		};
-		DCD2FDAA1D98FC230062421A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = KituraiOSUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.rodedz.KituraiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = KituraiOS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,15 +489,6 @@
 			buildConfigurations = (
 				DCD2FDA61D98FC230062421A /* Debug */,
 				DCD2FDA71D98FC230062421A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCD2FDA81D98FC230062421A /* Build configuration list for PBXNativeTarget "ClientSideUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCD2FDA91D98FC230062421A /* Debug */,
-				DCD2FDAA1D98FC230062421A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

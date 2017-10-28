@@ -122,7 +122,7 @@ class KituraTableViewController: UITableViewController {
         if let qrCodeImage = generateQRImage(url: url) {
             let scaleX = imageQRCode.frame.size.width / qrCodeImage.extent.size.width
             let scaleY = imageQRCode.frame.size.height / qrCodeImage.extent.size.height
-            let transformedImage = qrCodeImage.applying(CGAffineTransform(scaleX: scaleX, y: scaleY))
+            let transformedImage = qrCodeImage.transformed(by: CGAffineTransform(scaleX: scaleX, y: scaleY))
             imageQRCode.image = UIImage(ciImage: transformedImage)
         }
     }
@@ -142,7 +142,7 @@ class KituraTableViewController: UITableViewController {
                 self.navigationController?.navigationBar.tintColor = UIColor.white
                 self.navigationController?.navigationBar.barTintColor = Colors.LogBar
                 self.navigationController?.navigationBar.titleTextAttributes =
-                                                    [NSForegroundColorAttributeName: UIColor.white]
+                    [NSAttributedStringKey.foregroundColor: UIColor.white]
             }
         }
     }
